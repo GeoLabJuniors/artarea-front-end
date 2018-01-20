@@ -1,0 +1,29 @@
+$(document).ready(function(){
+    $(".search-div-visible").click(function(){
+        $(".header-nav-search").hide();
+        $(".header-nav-menu").hide();
+        $(".header-nav-lang").hide();
+        $(".search-div-hidden").css("display","flex");
+        $(".search-div-hidden").css("width","100%");
+        $(".search-div-hidden").css("justify-content","space-between");
+        $("input#search-input").focus();
+    });
+});
+$(document).ready(function(){
+    $(".close-button").click(function(){
+        $(".header-nav-search").show();
+        $(".header-nav-menu").show();
+        $(".header-nav-lang").show();
+        $(".search-div-hidden").hide();
+        $(".header-nav-search").css("margin","none");
+    });
+});
+$(document).ready(function(){
+    $("#search-input").focusout(function(){
+        $(".header-nav-search").show();
+        $(".header-nav-menu").show();
+        $(".header-nav-lang").show();
+        $(".search-div-hidden").hide();
+        $(".header-nav-search").css("margin","none");
+    });
+});
