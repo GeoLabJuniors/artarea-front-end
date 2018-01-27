@@ -58,9 +58,6 @@ body {
 button:focus {
     outline: none;
 }
-header{
-	font-size: 20px;
-}
 header a{
 	color: #606060;
 }
@@ -112,12 +109,7 @@ header a{
 	padding-left: 13px;
 	font-size: 14px;
 }
-.header-nav-search{
-	font-size: 16px;
-}
-.header-nav-lang{
-	font-size: 16px;
-}
+
 				/* HEADER END */
 
 				/* SECTION START */
@@ -134,7 +126,6 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 19px;
     font-family: Nino_Mtavruli_Normal;
 }
 .first-section .source {
@@ -160,7 +151,6 @@ main{
 
 footer {
 	font-family: Nino_Mtavruli_Bold;
-	font-size: 17px;
 }
 .footer{
 	width: 90%;
@@ -197,7 +187,176 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     z-index: 2;
 }
 				/* POSITION FIXED */
+
+				/* RESPONSIVE MENU */
+.header-nav-menu-responsive{
+	display: none;
+	font-size: 20px;
+	background: linear-gradient(white, #03a0ee);
+	background-color: white;
+	line-height: 2.5;
+	text-align: center;
+    width: 90%;
+    margin: auto;
+    font-family: Nino_Mtavruli_Normal;
+}
+.menu-button-responsive{
+	width: 35px;
+}
+.menu-button-responsive #bar1,#bar2,#bar3{
+	transition: all linear .3s;
+	margin-bottom: 2px;
+	width: 100%;
+	background: #03a0ee;
+	height: 8px;
+
+}
+#bar1.active{
+	-webkit-transform: translate(0px,10px) rotate(45deg);
+	transform: translate(0px,10px) rotate(45deg);
+}
+#bar3.active{
+	-webkit-transform: translate(0px,-10px) rotate(-45deg);
+	transform: translate(0px,-10px) rotate(-45deg);
+}
+#bar2.active{
+	opacity: 0;
+}
+
+
+
+
+/*  xxs ---  0px - 425px    */
+
+
+
+
+
+
+@media screen and (min-width:0px) {
+
+.menu-button-responsive{
+	display: block;
+}
+.header-nav-menu{
+	display: none;
+}
+.header-nav-lang{
+	display: none;
+}
+.first-section{
+	font-size: 10px;
+}
+footer{
+	font-size: 12px;
+}
+
+}
+
+
+
+/*  extra small == mobile (bootstrap xs) ---  426px - 767px    */
+
+
+
+
+
+
+@media screen and (min-width:426px) {
+
+
+footer{
+	font-size: 13px;
+}
+
+}
+
+
+
+
+/*  small == tablet (bootstrap sm) ---  768px - 991px    */
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+.first-section{
+	font-size: 13px;
+}
+footer{
+	font-size: 14px;
+}
+
+}
+
+
+
+
+/*  medium == notebook small (bootstrap md) ---  992px - 1999px    */
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+.menu-button-responsive{
+	display: none;
+}
+.header-nav-menu-responsive{
+	display: none!important;
+}
+.header-nav-menu{
+	display: block;
+}
+.header-nav-lang{
+	display: block;	
+	font-size: 16px;
+}
+
+header{
+	font-size: 18px;
+}
+.header-nav-search{
+	font-size: 16px;
+}
+.first-section{
+	font-size: 15px;
+}
+footer{
+	font-size: 16px;
+}
+
+}
+
+
+
+/*  large == notebook large (bootstrap lg) ---  1200px +   */
+
+@media screen and (min-width:1200px) {
+
+header{
+	font-size: 20px;
+}
+.header-nav-search{
+	font-size: 16px;
+}
+.first-section{
+	font-size: 19px;
+}
+footer{
+	font-size: 17px;
+}
+.social-links{
+	font-size: 16px;
+}
+
+
+}
