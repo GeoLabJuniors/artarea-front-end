@@ -2,18 +2,21 @@
 <html>
 <head lang="">
 
-	<title>მთავარი | Home</title>
+	<title>კონტაქტი | Contact</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- -->	<script src="js/search-button.js"></script>
- 		<script src="js/menu-button.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+	<script src="js/search-button.js"></script>
+ 	<script src="js/menu-button.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 </head>
 <body>
 	<header>
@@ -21,20 +24,20 @@
 			<div class="header-logo">
 				<a href="#"><img src="images/logo.svg"></a>
 			</div>
-			<div class="header-nav">
+			<div class="header-nav" data-spy="affix" data-offset-top="85">
 				<div class="search-div-hidden">
 						<input type="text" placeholder="ძიება" name="" id="search-input">
 						<button class="close-button">x</button>
 				</div>
 				<div class="header-nav-search">
 					<div class="search-div-visible">
-						<a href="#">ძიება<span class="glyphicon glyphicon-search"></span></a>
+						<button>ძიება<span class="glyphicon glyphicon-search"></span></button>
 					</div>
 				</div>
 				<div class="header-nav-menu">
 					<nav>
 						<ul id="header-nav-menu">
-							<li><a href="#" id="active">მთავარი</a></li>
+							<li><a href="index.html" id="active">მთავარი</a></li>
 						    <li><a href="#">გადაცემები</a></li>
 						    <li><a href="#">ღონისძიებები</a></li>
 						    <li><a href="#">ავტორები</a></li>
@@ -48,7 +51,7 @@
 					<a href="#">ქარ</a>/<a href="#">ENG</a>
 				</div>
 				<div class="menu-button-responsive">
-					<a href="#">
+					<a href="#">  <!-- button tag -->
 					<div id="bar1"></div>
   					<div id="bar2"></div>
   					<div id="bar3"></div></a>
@@ -58,7 +61,7 @@
 			<div class="header-nav-menu-responsive">
 				<nav>
 					<ul id="header-nav-menu-responsive">
-						<li><a href="#" id="active">მთავარი</a></li>
+						<li><a href="index.html" id="active">მთავარი</a></li>
 						<li><a href="#">გადაცემები</a></li>
 						<li><a href="#">ღონისძიებები</a></li>
 						<li><a href="#">ავტორები</a></li>
@@ -71,23 +74,43 @@
 			</div>
 	</header>
 	<main>
-		<section class="home-section">
-			<div class="source">
-				<iframe width="640" height="360" src="https://www.youtube.com/embed/gzFzNyPI8MA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<div class="container contact-container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<h2>საკონტაქტო ინფორმაცია</h2>
+					<table>
+						<tr>
+							<td>ტელეფონი <span>2 18 10 38</span></td>
+						</tr>
+						<tr>
+							<td>ელ ფოსტა <span>info@artarea.tv</span></td>
+						</tr>
+						<tr>
+							<td>მისამართი <span>დოდო აბაშიძის 10</span></td>
+						</tr>
+						
+					</table>
+					<div class="main-social-links">
+						<a href="">fb</a>
+						<a href="">ln</a>
+						<a href="">Tw</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-8">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11912.545125893297!2d44.7850189!3d41.717578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xced15c2c7992ceb5!2sGeoLab!5e0!3m2!1sen!2sge!4v1517584451726" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
 			</div>
-			<div class="source-heading">
-				<a href="#"><h2>ქუჩის აკადემია Vol. 1 - დავით მაკარიძე - გამოღვიძების ხელოვნება [შესავალი ონეირონავტიკაში]</h2></a>
-			</div>
-		</section>
+		</div>
 	</main>
 	<footer>
 		<div class="footer">
-			<div class="contact"><a href="contact.html">კონტაქტი</a></div>
+			<div class="contact"><a href="#">კონტაქტი</a></div>
 			<div class="social-links">
 				<a href="https://www.youtube.com/watch?v=TQKV_CG_4Ns" target="_blank">fb</a><a href="#">ln</a>
 			</div>
 			<div class="about-us"><a href="#">ჩვენს შესახებ</a></div>
 		</div>
 	</footer>
+
 </body>
 </html>

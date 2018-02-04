@@ -42,10 +42,10 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
+/*table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+}*/
 a{
 	text-decoration: none;
 }
@@ -57,4 +57,12 @@ a:active{
 }
 a:focus{
 	text-decoration: none;
+}
+section{
+	line-height: 1;
+}
+button{
+	border:0;
+	padding:0;
+	background-color: transparent;
 }
