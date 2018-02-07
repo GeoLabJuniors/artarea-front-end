@@ -34,12 +34,16 @@ body {
 	min-height: 100%;
 	position: relative;
 }
-.affix {
+#affix1.affix {
       top:0;
       height: 50px;
       background-color: lightgrey;
       width: 100%;
       z-index: 9999 !important;
+  }
+#affix2.affix{
+  	position: fixed;
+  	top: 50px;
   }
 				/* HEADER START */
 
@@ -218,7 +222,7 @@ footer{
 	height: 500px;
 }
 .container{
-	width: 90%;
+	width: 80%;
 	padding-left: 0px;
 	padding-right: 0px;
 }
@@ -382,9 +386,9 @@ footer{
 	font-size: 16px;
 }
 
-.contact-container iframe{
+/*.contact-container iframe{
 	width: 90%;
-}
+}*/
 
 main{
 	font-size: 18px;
@@ -421,9 +425,9 @@ footer{
 .social-links{
 	font-size: 16px;
 }
-.contact-container iframe{
+/*.contact-container iframe{
 	width: 88%;
-}
+}*/
 main{
 	font-size: 20px;
 }
