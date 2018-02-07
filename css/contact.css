@@ -194,10 +194,13 @@ footer{
 }
 .menu-button-responsive #bar1,#bar2,#bar3{
 	transition: all linear .3s;
-	margin-bottom: 5px;
 	width: 100%;
 	background: #03a0ee;
 	height: 2px;
+}
+.menu-button-responsive #bar2{
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 #bar1.active{
 	-webkit-transform: translate(0px,4px) rotate(45deg);
