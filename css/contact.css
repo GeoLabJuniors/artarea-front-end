@@ -219,10 +219,10 @@ footer{
 	margin-top: 30px;
 }
 .contact-container table{
-	line-height: 2.5;
+	line-height: 1.5;
 }
 .contact-container iframe{
-	height: 500px;
+	height: 400px;
 }
 .container{
 	width: 80%;
@@ -242,13 +242,13 @@ main{
 }
 main h2{
 	font-family: Nino_Mtavruli_Bold;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 }
 main span{
 	font-family: Nino_Mtavruli_Bold;
 }
 main .main-social-links{
-	margin-top: 40px;
+	margin-top: 20px;
 }
 main .main-social-links a{
 	color: black;
@@ -291,6 +291,8 @@ footer{
 
 main{
 	font-size: 16px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 main h2{
 	font-size: 16px;
@@ -342,7 +344,7 @@ footer{
 	margin-top: 0px;
 }
 main .col-xs-12.col-sm-4{
-	height: 500px;
+	height: 400px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -394,16 +396,16 @@ footer{
 }*/
 
 main{
-	font-size: 18px;
+	font-size: 17px;
 }
 main h2{
-	font-size: 18px;
+	font-size: 17px;
 }
 main span{
 	margin-left: 18px;
 }
 main .main-social-links a{
-	font-size: 16px;
+	font-size: 15px;
 }
 }
 
@@ -432,15 +434,15 @@ footer{
 	width: 88%;
 }*/
 main{
-	font-size: 20px;
+	font-size: 19px;
 }
 main h2{
-	font-size: 20px;
+	font-size: 19px;
 }
 main span{
 	margin-left: 20px;
 }
 main .main-social-links a{
-	font-size: 20px;
+	font-size: 19px;
 }
 }

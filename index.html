@@ -8,9 +8,10 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- -->	<script src="js/search-button.js"></script>
- 		<script src="js/menu-button.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+ 	<script src="js/search-button.js"></script>
+ 	<script src="js/menu-button.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -21,20 +22,20 @@
 			<div class="header-logo">
 				<a href="#"><img src="images/logo.svg"></a>
 			</div>
-			<div class="header-nav">
+			<div class="header-nav" id="affix1" data-spy="affix" data-offset-top="85">
 				<div class="search-div-hidden">
 						<input type="text" placeholder="ძიება" name="" id="search-input">
 						<button class="close-button">x</button>
 				</div>
 				<div class="header-nav-search">
 					<div class="search-div-visible">
-						<a href="#">ძიება<span class="glyphicon glyphicon-search"></span></a>
+						<button>ძიება<span class="glyphicon glyphicon-search"></span></button>
 					</div>
 				</div>
 				<div class="header-nav-menu">
 					<nav>
 						<ul id="header-nav-menu">
-							<li><a href="#" id="active">მთავარი</a></li>
+							<li><a href="index.html" id="active">მთავარი</a></li>
 						    <li><a href="#">გადაცემები</a></li>
 						    <li><a href="#">ღონისძიებები</a></li>
 						    <li><a href="#">ავტორები</a></li>
@@ -48,17 +49,17 @@
 					<a href="#">ქარ</a>/<a href="#">ENG</a>
 				</div>
 				<div class="menu-button-responsive">
-					<a href="#">
+					<button>
 					<div id="bar1"></div>
   					<div id="bar2"></div>
-  					<div id="bar3"></div></a>
+  					<div id="bar3"></div></button>
 	 			</div>
 			</div>
 		</div>
-			<div class="header-nav-menu-responsive">
+			<div class="header-nav-menu-responsive" id="affix2" data-spy="affix" data-offset-top="85">
 				<nav>
 					<ul id="header-nav-menu-responsive">
-						<li><a href="#" id="active">მთავარი</a></li>
+						<li><a href="index.html" id="active">მთავარი</a></li>
 						<li><a href="#">გადაცემები</a></li>
 						<li><a href="#">ღონისძიებები</a></li>
 						<li><a href="#">ავტორები</a></li>
