@@ -113,11 +113,12 @@ header a{
 }
 .search-div-hidden input:focus{
 	outline: none;
+	background:transparent;
 }
 .search-div-hidden button{
     border: 0px;
     padding: 0px;
-    background: white;
+    background: transparent;
     font-size: 45px;
     color: #03aeee;
 }
