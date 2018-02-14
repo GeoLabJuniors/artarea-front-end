@@ -14,3 +14,23 @@ $(document).ready(function(){
 //   		$("#bar3").toggleClass("active");
 //     });
 // });
+$(document).ready(function(){
+    $("#open-button").click(function(){
+        $(".left-navigation").animate({width:"toggle"});
+        $(".left-navigation").css("background","white");
+        $(".left-navigation").css("z-index","2");
+        $(".left-navigation").css("display","flex");
+        $(".left-navigation").css("justify-content","center");
+        $(".left-navigation").css("text-align","center");
+        $("#close-button").show();
+        $("#open-button").hide();
+        $(".left-navigation").attr("id","affix4");
+    });
+});
+$(document).ready(function(){
+    $("#close-button").click(function(){
+        $(".left-navigation").animate({width:"toggle"});
+        $("#close-button").hide();
+        $("#open-button").show();
+    });
+});
