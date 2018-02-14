@@ -354,7 +354,7 @@ footer{
 	font-size: 14px;
 }
 .left-navigation{
-	display: block;
+	display: block!important;
 }
 .left-navigation-button {
 	display: none;	

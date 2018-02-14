@@ -29,8 +29,12 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $("#close-button").click(function(){
-        $(".left-navigation").animate({width:"toggle"});
+        $(".left-navigation").hide();
+        $(".left-navigation").css("background","none");
+        $(".left-navigation").css("justify-content","flext-start");
+        $(".left-navigation").css("text-align","left");
         $("#close-button").hide();
         $("#open-button").show();
+        $(".left-navigation").attr("id","affix3");
     });
 });
