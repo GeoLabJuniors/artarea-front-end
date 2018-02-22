@@ -170,29 +170,29 @@ main{
 	margin-bottom: 80px;
 	line-height: 1;
 }
-#blog-title{
+.blog-title{
 	font-family: Nino_Mtavruli_Bold;
 	font-size: 18px;
 	margin-bottom: 20px;
 	color: #606060;
 }
-#blog-title h1{
+.blog-title h1{
 	margin-bottom: 25px;
 }
-#blog-paragraph{
+.blog-paragraph{
 	font-size: 17px;
 	font-family: Nino_Mkh;
 	text-indent: 100px;
 	margin-bottom: 10px;
 	color: #606060;
 }
-#blog-author{
+.blog-author{
 	float: right;
 	font-family: Nino_Mtavruli_Normal;
 	font-size: 18px;
 	color: #606060;
 }
-#blog-image{
+.blog-image{
 	text-align: center;
 }
 
@@ -260,7 +260,7 @@ main{
 footer{
 	font-size: 12px;
 }
-#blog-image{
+.blog-image{
 	margin-bottom: 10px;
 }
 
@@ -302,11 +302,11 @@ footer{
 	padding-right: 0px!important;
     padding-left: 0px!important;
 }
-#blog-image img{
+.blog-image img{
 	width: 225px;
 	height: 200px;
 }
-#blog-image{
+.blog-image{
 	margin-bottom: 0px;
 }
 }
@@ -350,7 +350,7 @@ footer{
 	padding-right: 5%!important;
     padding-left: 5%!important;
 }
-#blog-image img{
+.blog-image img{
 	width: initial;
 	height: initial;
 }
