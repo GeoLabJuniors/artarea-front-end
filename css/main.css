@@ -26,6 +26,9 @@
     font-family: MyriadPro-Bold;
     src:url(../fonts/MyriadPro-Bold.otf);
 }
+#active{
+	font-family: Nino_Mtavruli_Bold;
+}
 html{
 	 height: 100%;
 }
@@ -61,14 +64,21 @@ body {
 	height: 20px;
 }
 .header-wrapper{
-    width: 90%;
+    width: 100%;
     margin: auto;
+    position: fixed;
+    z-index: 999;
+    background: white;
+    height: 135px;
+
 }
 .header-nav{
 	display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: Nino_Mtavruli_Normal;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .header-nav-menu ul{
 	display: flex;
@@ -135,7 +145,7 @@ header a{
 				/* SECTION START */
 
 main{
-	padding-top: 80px;
+	padding-top: 180px;
     padding-bottom: 50px;
 }
 .home-section{
@@ -220,8 +230,9 @@ footer{
     width: 100%;
     margin: auto;
     font-family: Nino_Mtavruli_Normal;
-    position: absolute;
+    position: fixed;
     z-index: 999;
+    top: 135px;
 }
 .menu-button-responsive{
 	width: 26px;

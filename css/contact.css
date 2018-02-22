@@ -60,6 +60,10 @@ body {
 .header-wrapper{
     width: 100%;
     margin: auto;
+    position: fixed;
+    z-index: 999;
+    background: white;
+    height: 135px;
 }
 .header-nav{
 	padding-left: 5%;
@@ -178,8 +182,9 @@ footer{
     width: 100%;
     margin: auto;
     font-family: Nino_Mtavruli_Normal;
-    position: absolute;
+    position: fixed;
     z-index: 999;
+    top: 135px;
 }
 .menu-button-responsive{
 	width: 26px;
@@ -207,9 +212,7 @@ footer{
 }
 			/* RESPONSIVE MENU */
 			/* contact-container */
-.contact-container{
-	margin-top: 30px;
-}
+
 .contact-container table{
 	line-height: 1.5;
 }
@@ -280,7 +283,7 @@ footer{
 
 main{
 	font-size: 16px;
-	padding-top: 50px;
+	padding-top: 180px;
 	padding-bottom: 50px;
 }
 main h2{
