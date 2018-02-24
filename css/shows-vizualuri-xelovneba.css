@@ -49,6 +49,9 @@ body {
  	font-family: Nino_Mtavruli_Bold;
  	color: #303342;
  }
+ #active-root{
+ 	color: #303342!important;
+ }
 				/* HEADER START */
 
 .header-logo{
