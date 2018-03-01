@@ -397,7 +397,7 @@ main{
 	padding-bottom: 40px;
 }
 .about-us-paragraph{
-	text-align: left;
+	text-align: justify;
 	font-family: Nino_Mkh;
 	text-indent: 100px;
 }
