@@ -244,7 +244,7 @@ main{
 		line-height: 1;
 	}
 	.authors-list-container > div{
-		margin-bottom: 40px;
+		margin-bottom: 32px;
 	}
 	.authors-filter{
 		padding-left: 5%;
@@ -256,10 +256,11 @@ main{
 		padding-left: 0px;
 	}
 	.authors-container{
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.author-list-item{
-		line-height: 1.7;
+		line-height: 1;
+		padding-bottom: 13px;
 	}
 }
 
@@ -295,17 +296,14 @@ main{
 		font-size: 14px;
 	}
 	.authors-container{
-		font-size: 17px;
+		font-size: 16px;
 	}
 	.authors-list-initial{
 		font-size: 19px;
 	}
 	.authors-list-container > div{
 		margin-bottom: 0px;
-		height: 250px;
-	}
-	.author-list-item{
-		line-height: 1.4;
+		height: 220px;
 	}
 }
 
@@ -360,10 +358,7 @@ main{
 		font-size: 21px;
 	}
 	.authors-list-container > div{
-		height: 280px;
-	}
-	.author-list-item{
-		line-height: 1.5;
+		height: 240px;
 	}
 }
 
@@ -392,10 +387,11 @@ main{
 		font-size: 23px;
 	}
 	.author-list-item{
-		line-height: 1.7;
+		line-height: 1;
+		font-size: 19px;
 	}
 	.authors-list-container > div{
-		height: 320px;
+		height: 260px;
 	}
 }
 
@@ -425,4 +421,7 @@ main{
 	font-family: Nino_Mtavruli_Bold;
 	color: #303342;
 	margin-bottom: 25px;
+}
+.authors-list-content > div{
+	padding-left: 0px;
 }
